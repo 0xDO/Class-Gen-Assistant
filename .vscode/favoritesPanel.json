@@ -1,0 +1,29 @@
+{
+    "favoritesPanel.commands": [
+			{
+				"label": "README",
+				"description": "Project",
+				"command": "openFile",
+				"iconColor": "terminal.ansiBrightBlue",
+				"arguments": [
+					"README.MD"
+				]
+			},
+			{
+				"label": "URL | References | Project",
+				"commands": [
+					{
+						"label": "Open on GitHub",
+						"description": "",
+						"icon": "link-external",
+						"iconColor": "editorBracketHighlight.foreground3",
+						"command": "runCommand",
+						"arguments": [
+							"vscode.open",
+							"https://github.com/0xDO/Class-Gen-Assistant"
+						]
+					}
+				]
+			}
+		]
+}

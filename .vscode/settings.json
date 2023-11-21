@@ -5,5 +5,5 @@
     "explorer.excludeGitIgnore": false,
     "[markdown]": {
         "files.trimTrailingWhitespace": false
-      }
+    },
 }
