@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        // "**/.vs": true,
+    },
+    "explorer.excludeGitIgnore": false,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+      }
+}

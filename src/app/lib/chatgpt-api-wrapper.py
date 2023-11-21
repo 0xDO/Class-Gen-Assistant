@@ -12,7 +12,6 @@ def send_message(message):
         temperature=0.7,
         n=1,
         stop=None,
-        temperature=0.7
     )
     return response.choices[0].text.strip()
 
