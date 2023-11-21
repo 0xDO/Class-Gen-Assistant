@@ -1,0 +1,2 @@
+I want to get started with chatgpt API python. can you help me with the boileplate code?
+import requests

@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "Python: Current File",
+        //     "type": "python",
+        //     "request": "launch",
+        //     "program": "${file}",
+        //     "console": "integratedTerminal",
+        //     "justMyCode": true
+        // },
+        {
+            "name": "Python: Run Debug",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/__init__.py",
+            //"args": ["--quiet", "--norepeat", "--port", "1593"],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "envFile": "${workspaceFolder}/dev.env",
+            //"args": ["<", "in.txt"]  --> This approach requires that the "<" syntax is passed through the debugger extension and ends up unmodified in the Integrated Terminal.
+            "autoReload": {
+                "enable": true
+              }
+        },
+        {
+            "name": "Python: Run Production (default env)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/__init__.py",
+            //"args": ["--quiet", "--norepeat", "--port", "1593"],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+        }
+    ]
+}
