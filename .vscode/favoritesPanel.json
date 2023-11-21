@@ -22,6 +22,28 @@
 							"vscode.open",
 							"https://github.com/0xDO/Class-Gen-Assistant"
 						]
+					},
+					{
+						"label": "Reference: Open AI API",
+						"description": "",
+						"icon": "link-external",
+						"iconColor": "editorBracketHighlight.foreground3",
+						"command": "runCommand",
+						"arguments": [
+							"vscode.open",
+							"https://platform.openai.com/docs/api-reference/authentication?lang=python"
+						]
+					},
+					{
+						"label": "Reference: Python environments in VS Code",
+						"description": "",
+						"icon": "link-external",
+						"iconColor": "editorBracketHighlight.foreground3",
+						"command": "runCommand",
+						"arguments": [
+							"vscode.open",
+							"https://code.visualstudio.com/docs/python/environments"
+						]
 					}
 				]
 			}
