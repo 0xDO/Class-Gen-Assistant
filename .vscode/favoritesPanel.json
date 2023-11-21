@@ -44,7 +44,20 @@
 							"vscode.open",
 							"https://code.visualstudio.com/docs/python/environments"
 						]
+					},
+					{
+						"label": "GitHub: OpenAI Python API library",
+						"description": "",
+						"icon": "link-external",
+						"iconColor": "editorBracketHighlight.foreground3",
+						"command": "runCommand",
+						"arguments": [
+							"vscode.open",
+							"https://github.com/openai/openai-python"
+						]
 					}
+
+					
 				]
 			}
 		]
